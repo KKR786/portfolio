@@ -1,11 +1,11 @@
-import Hamburger from "./components/Hamburger";
+import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Home from "./pages/Home"
 
 function App() {
   return (
     <div className="">
-      <Hamburger />
+      <Navbar />
       <Home />
       <About />
     </div>
